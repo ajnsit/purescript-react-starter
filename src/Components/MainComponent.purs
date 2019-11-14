@@ -10,11 +10,13 @@ import React (ReactClass, ReactElement)
 import React as React
 import React.DOM as D
 import React.DOM.Props as P
+import SortableTree (tree)
 
 mainComponent :: ReactElement
 mainComponent = D.div []
   [ D.h1 [P.style {color: "#555"}] [D.text "Hello Purescript!"]
   , counter
+  , tree
   ]
 
 counter :: ReactElement

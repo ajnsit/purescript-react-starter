@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "spago build",
-    "start": "spago build & parcel index.html"
+    "start": "spago build && parcel index.html"
   },
   "author": "Anupam Jain",
   "license": "ISC",
   "dependencies": {
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dnd": "^7.7.0",
+    "react-dom": "^16.11.0",
+    "react-sortable-tree": "^2.7.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
