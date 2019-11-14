@@ -1,10 +1,9 @@
 module Main where
 
-import Prelude
-
+import Data.Unit (Unit)
 import Effect (Effect)
-import Effect.Console (log)
+import MainComponent (mainComponent)
+import Render (renderComponent)
 
 main :: Effect Unit
-main = do
-  log "🍝"
+main = renderComponent mainComponent
