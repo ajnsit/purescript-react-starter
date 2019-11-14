@@ -44,3 +44,18 @@ This will install purescript and other tools *locally* into the project director
 ```
 
 5. Open the folder in your editor and start coding!
+
+
+## Setup From Scratch
+
+Here's how this repository was created for those who want to DIY.
+
+Run these commands in the terminal -
+
+```
+λ npm init
+λ npm install —save-dev purescript spago parcel-bundler
+λ npm install —save react react-dom
+λ npx spago init
+λ npx spago install react react-dom web-html web-dom
+```
