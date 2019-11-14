@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "spago build",
     "start": "spago build & parcel index.html"
   },
-  "author": "",
+  "author": "Anupam Jain",
   "license": "ISC",
   "dependencies": {
     "react": "^16.11.0",
