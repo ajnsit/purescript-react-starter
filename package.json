@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "spago build",
-    "start": "spago build & parcel index.html"
+    "build": "spago build --purs-args '-g sourcemaps'",
+    "start": "spago build --purs-args '-g sourcemaps' && parcel index.html"
   },
   "author": "Anupam Jain",
   "license": "ISC",
